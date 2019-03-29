@@ -130,6 +130,16 @@ export abstract class BaseClass implements INameInterface
         this.checkName();
     }
 
+    /**
+     * This is a simple member function.
+     *
+     * It should be inherited by all subclasses.
+     *
+     * @param name The new name2.
+     */
+    public setName2({example}: {example:string}) {
+    }
+
 
     /**
      * This is a simple fat arrow function.
